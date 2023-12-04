@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router';
 import FeatureLists from '../components/authentication/FeatureLists.vue';
 </script>
 
@@ -94,12 +95,12 @@ import FeatureLists from '../components/authentication/FeatureLists.vue';
                       Unlock cloning app
                     </li>
                   </ul>
-                  <a
-                    href="checkout.html"
-                    class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-full hover:bg-gray-300 md:py-2 md:text-md md:px-10 hover:shadow"
+                  <RouterLink
+                    to="/success"
+                    class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-full hover:bg-indigo-700 md:py-2 md:text-md md:px-10 hover:shadow"
                   >
                     Checkout Now
-                  </a>
+                  </RouterLink>
                 </div>
               </div>
             </div>

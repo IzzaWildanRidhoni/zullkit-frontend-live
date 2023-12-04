@@ -25,8 +25,7 @@ const router = createRouter({
       component: RegisterView,
     },
     {
-      // path: '/product/:id',
-      path: '/product',
+      path: '/product/:id',
       name: 'product',
       component: DetailView,
     },
